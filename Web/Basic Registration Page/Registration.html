@@ -5,33 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
+    <h1>Registration</h1>
+    <p>please fill this form for registration</p>
+    <hr />
 
     <form action="">
-        <h1>Registration</h1>
-        <p>please fill this form for registration</p>
-        <hr />
-        <!--Form creation starts here-->
-        <label for="fn"><b>First name</b></label>
-        <input type="text" placeholder="First Name" id="fn" name="fn" required><!--First name-->
+        <div class="container"><!--Form creation starts here-->
+            <label for="fn"><b>First name</b></label>
+            <input type="text" placeholder="First Name" id="fn" name="fn" required><!--First name-->
+            <br>
+            <label for="mn"><b>Middile name</b></label>
+            <input type="text" placeholder="Middile Name" id="mn" name="mn"><!--Middle name-->
 
-        <label for="mn"><b>Middile name</b></label>
-        <input type="text" placeholder="Middile Name" id="mn" name="mn"><!--Middle name-->
+            <label for="ln"><b>Last name</b></label>
+            <input type="text" placeholder="Last Name" id="ln" name="ln" required><!--Last name-->
 
-        <label for="ln"><b>Last name</b></label>
-        <input type="text" placeholder="Last Name" id="ln" name="ln" required><!--Last name-->
+            <div>
+                <hr />
+            </div>
+            <label for="pass"><b>password</b></label>
+            <input type="password" placeholder="password" id="pass" name="pass" required><!--Password-->
 
-        <label for="pass"><b>password</b></label>
-        <input type="password" placeholder="password" id="pass" name="pass" required><!--Password-->
+            <label for="Cpass"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Confirm password" id="Cpass" name="Cpass"
+                required><!--Password confirmation-->
+            <hr />
 
-        <label for="Cpass"><b>Confirm Password</b></label>
-        <input type="password" placeholder="Confirm password" id="Cpass" name="Cpass" required><!--Password confirmation-->
-        <hr/>
-
-        <button type="submit">Resgister</button>
+            <button type="submit" id="speacialb">Resgister</button>
+        </div>
     </form>
+
 </body>
 
 </html>

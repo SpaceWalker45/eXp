@@ -1,0 +1,45 @@
+body{
+    background-color: teal;
+}
+/* UNIVERSAL SELECTOR */
+*{
+    box-sizing: border-box;
+}
+/* FOR DIV CONTAINER */
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 60px;
+    background-color: white;
+    box-shadow: 20px 20px 20px 0px rgb(0, 0, 0.7);
+}
+/* BUTTON */
+#speacialb{
+    background-color: teal;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    opacity: 0.7;
+}
+/*FOR TEXT FIELD */
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: whitesmoke;
+}
+/*FOR MOUSE EVENT */
+input[type='text']:focus,
+input[type='password']:focus {
+    background-color: #DDD;
+    outline: none;
+}
+#speacialb:hover{
+    opacity: 1;
+}
