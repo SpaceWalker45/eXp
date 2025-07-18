@@ -1,4 +1,5 @@
 This repository contains programs that i write while re-learning from base. Most of the programs are simple and easy to learn.
 program order:
 1) registeration page -this is a simple web page which is used to learn html and css
-2) Quiz page - A simple webpage which uses Html, Css and javascript
+2) Simple calculator using html, css and javascript
+3) Quiz page - A simple webpage which uses Html, Css and javascript
