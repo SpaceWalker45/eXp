@@ -1,0 +1,38 @@
+*{
+    background-color: antiquewhite;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: flex;
+    text-align: center;
+    gap: 30px;
+}
+#nav-link {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5px;
+    font-size: 16px;
+    gap:10px;
+}
+#logo-nav {
+    height: 40px;
+    width: 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+.ftr {
+    
+    background-color: black;
+}
