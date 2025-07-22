@@ -1,57 +1,77 @@
-body{
-    background-color: antiquewhite;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-/*.nav-bar {
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #1f1f1f;
+    color: #fff;
+    padding: 15px 30px;
     display: flex;
-    padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
-    width: flex;
+}
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+.hero {
+    background-color: 0077cc;
+    color: #fff;
+    padding: 60px 30px;
     text-align: center;
-    gap: 30px;
 }
-#nav-link {
-    align-items: center;
+article {
     display: flex;
-    justify-content: space-evenly;
-    margin: 0 5px;
-    font-size: 16px;
-    gap:10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 30px;
+    justify-content: center;
+    background: #fff;
 }
 
+article img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+article h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
 
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-evenly;
-  padding: 0;
-  margin: 0;
-  gap: 30px;
-}*/
-.ftr {
-    
-    background-color: black;
 }
-#logo-nav {
-    height: 40px;
-    width: 40px;
+article p {
+    font-size: 0.95em;
+    color: #555;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10%;
-}
-.nav-link {
-    list-style: none;
-}
-.nav-link li {
+article a {
     display: inline-block;
-    padding: 0px 20px;
+    margin-top: 10px;
+    color: #0077cc;
+    font-weight: bold;
+    text-decoration: none;
 }
-.nav-link li:hover {
-    color: red;
-    background-color: brown;
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color:#ccc;
 }
