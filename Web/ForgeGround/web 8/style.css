@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.movie-review {
+    margin-bottom: 2em;
+}
+
+.movie-review h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #ddd;
+    margin-top: 2em;
+}
