@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-sans', sans-serif;
+}
+:root{
+    --bg-color: conic-gradient(#a7aef9, #ddccf8, #f5c9d9, #cebbfa, #a7aef9 );
+    --primary-color: #573b8a;
+    --light-gray: #f7f7f7;
+    --btn-hover: #6d44b8;
+}
+body{
+    background: var(--bg-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containar{
+    width: 350px;
+}
